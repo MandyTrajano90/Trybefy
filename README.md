@@ -35,6 +35,28 @@ Neste projeto, aprendi a:
 </details>
 
 <details>
+  <summary><strong>🚧 Instalando o projeto: Rodando no Docker vs Localmente </strong></summary></br>
+  
+1. Clone o repositório
+
+- Use o comando: `git clone git@github.com:Mandytrajano90/Trybefy.git`
+- Entre na pasta do repositório que você acabou de clonar:
+    - `cd Trybefy.git`
+
+2. Docker
+- Rode o serviço `node` com o comando `docker-compose up -d`.
+    - Esse comando irá inicializar dois containers, um chamado `trybefy` e o outro `trybefy_db`.
+
+- Use o comando `docker exec -it trybefy sh`.
+    - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
+
+3. Localmente
+- Instale as dependências com `npm install`
+    - Os requisitos do projeto devem estar no diretório `src`;
+
+</details>
+
+<details>
   <summary><strong>👁️ Dê uma olhada no código </strong></summary></br>
 
 
